@@ -72,10 +72,7 @@ binaries=(
 	curl
 	ffmpeg
 	node
-	mongodb
 	nginx
-	redis
-	siege
 )
 
 echo "Installing binaries..."
@@ -97,20 +94,29 @@ echo 'export HOMEBREW_CASK_OPTS="--appdir=/Applications"' >> ~/.zshrc
 # Some cask apps that I use.
 apps=(
 	dropbox
-	spotify
 	disk-inventory-x
-	firefox
-	google-chrome
-	virtualbox
 	mplayerx
-	utorrent
-	steam
-	teamviewer
 	vlc
 	skype
-	filezilla
-	sqlite-database-browser
 	mailbox
+	airmail-amt
+	twitter
+	sublime-text
+	transmit
+	vox
+	github
+	iresize
+	mou
+	paparazzi
+	the-unarchiver
+	unrarx
+	miro-video-converter
+	adium
+	cloud
+	dropbox
+	evernote
+	torbrowser
+	transmission
 )
 echo "installing apps..."
 brew cask install ${apps[@]}
@@ -118,10 +124,13 @@ brew cask install ${apps[@]}
 # Cask I use for development
 devel_apps=(
 	iterm
-	sublime-text3
-	robomongo
-	sequel-pro
+	atom
+	sublime-text2
 	macdown
+	firefox
+	google-chrome
+	opera
+	virtualbox
 )
 echo "installing devel apps..."
 brew cask install ${devel_apps[@]}
@@ -161,7 +170,7 @@ defaults write NSGlobalDomain KeyRepeat -int 0
 # Sublime Text
 ###############################################################################
 echo ""
-echo "Enable Sublime Text 3 command line?"
+echo "Enable Sublime Text 2 command line?"
 select yn in "Yes" "No"; do
   case $yn in
     Yes ) echo ""

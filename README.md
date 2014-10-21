@@ -13,36 +13,45 @@ A script to help you set up your development enviroment on OSX. It was custom ma
 - `curl`
 - `ffmpeg`
 - `node`
-- `mongodb`
 - `nginx`
-- `redis`
-- `siege`
 
 **Install apps (that I use):**
 
-- `Dropbox`
-- `Spotify`
-- `Disk-inventory-x`
-- `Firefox`
-- `Google Chrome`
-- `Virtualbox`
-- `Mplayerx`
-- `Utorrent`
-- `Steam`
-- `Teamviewer`
-- `Vlc`
-- `Skype`
-- `Filezilla`
-- `Sqlite`
-- `Mailbox`
+- `dropbox`
+- `disk-inventory-x`
+- `mplayerx`
+- `vlc`
+- `skype`
+- `mailbox`
+- `airmail-amt`
+- `twitter`
+- `sublime-text`
+- `transmit`
+- `vox`
+- `github`
+- `iresize`
+- `mou`
+- `paparazzi`
+- `the-unarchiver`
+- `unrarx`
+- `miro-video-converter`
+- `adium`
+- `cloud`
+- `dropbox`
+- `evernote`
+- `torbrowser`
+- `transmission`
 
 **Apps for development:**
 
-- `Iterm 2`
-- `Sublime-Text 3`
-- `Robomongo`
-- `Sequel-pro`
-- `Macdown`
+- `iterm`
+- `atom`
+- `sublime-text2`
+- `macdown`
+- `firefox`
+- `google-chrome`
+- `opera`
+- `virtualbox`
 
 **Fixes some OSX annoyances:**
 
