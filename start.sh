@@ -101,10 +101,8 @@ apps=(
 	mailbox
 	airmail-amt
 	twitter
-	sublime-text
 	transmit
 	vox
-	github
 	iresize
 	mou
 	paparazzi
@@ -112,10 +110,15 @@ apps=(
 	unrarx
 	miro-video-converter
 	adium
-	cloud
-	evernote
 	torbrowser
 	transmission
+	slack
+	avocode
+	spotify
+	nvalt
+	cord
+	firefox
+	google-chrome
 )
 echo "installing apps..."
 brew cask install ${apps[@]}
@@ -126,10 +129,8 @@ devel_apps=(
 	atom
 	sublime-text2
 	macdown
-	firefox
-	google-chrome
-	opera
 	virtualbox
+	github
 )
 echo "installing devel apps..."
 brew cask install ${devel_apps[@]}
