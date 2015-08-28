@@ -131,6 +131,7 @@ devel_apps=(
 	macdown
 	virtualbox
 	github
+	vagrant-manager
 )
 echo "installing devel apps..."
 brew cask install ${devel_apps[@]}
